@@ -1,0 +1,363 @@
+
+/-------------------------
+| Training trial 1
+\-------------------------
+
+Environment.reset(): Trial set up with start = (2, 6), destination = (4, 4), deadline = 20
+Simulating trial. . . 
+epsilon = 1.0000; alpha = 0.5000
+
+/-------------------
+| Step 0 Results
+\-------------------
+
+Environment.step(): t = 0
+Environment.act() [POST]: location: (2, 6), heading: (1, 0), action: None, reward: -4.80556689339
+Environment.act(): Step data: {'inputs': {'light': 'green', 'oncoming': None, 'right': None, 'left': None}, 'violation': 1, 'light': 'green', 'state': None, 'deadline': 20, 't': 0, 'action': None, 'reward': -4.805566893391015, 'waypoint': 'forward'}
+!! Agent state not been updated!
+Agent idled at a green light with no oncoming traffic. (rewarded -4.81)
+95% of time remaining to reach destination.
+
+/-------------------
+| Step 1 Results
+\-------------------
+
+Environment.step(): t = 1
+Environment.act() [POST]: location: (2, 6), heading: (1, 0), action: None, reward: -4.11642900707
+Environment.act(): Step data: {'inputs': {'light': 'green', 'oncoming': None, 'right': None, 'left': None}, 'violation': 1, 'light': 'green', 'state': None, 'deadline': 19, 't': 1, 'action': None, 'reward': -4.11642900706804, 'waypoint': 'forward'}
+!! Agent state not been updated!
+Agent idled at a green light with no oncoming traffic. (rewarded -4.12)
+90% of time remaining to reach destination.
+
+/-------------------
+| Step 2 Results
+\-------------------
+
+Environment.step(): t = 2
+Environment.act() [POST]: location: (2, 6), heading: (1, 0), action: None, reward: -5.10069354178
+Environment.act(): Step data: {'inputs': {'light': 'green', 'oncoming': None, 'right': None, 'left': None}, 'violation': 1, 'light': 'green', 'state': None, 'deadline': 18, 't': 2, 'action': None, 'reward': -5.1006935417840324, 'waypoint': 'forward'}
+!! Agent state not been updated!
+Agent idled at a green light with no oncoming traffic. (rewarded -5.10)
+85% of time remaining to reach destination.
+
+/-------------------
+| Step 3 Results
+\-------------------
+
+Environment.step(): t = 3
+Environment.act() [POST]: location: (2, 6), heading: (1, 0), action: None, reward: -5.22049381732
+Environment.act(): Step data: {'inputs': {'light': 'green', 'oncoming': None, 'right': None, 'left': None}, 'violation': 1, 'light': 'green', 'state': None, 'deadline': 17, 't': 3, 'action': None, 'reward': -5.220493817322918, 'waypoint': 'forward'}
+!! Agent state not been updated!
+Agent idled at a green light with no oncoming traffic. (rewarded -5.22)
+80% of time remaining to reach destination.
+
+/-------------------
+| Step 4 Results
+\-------------------
+
+Environment.step(): t = 4
+Environment.act() [POST]: location: (2, 6), heading: (1, 0), action: None, reward: -4.88974163137
+Environment.act(): Step data: {'inputs': {'light': 'green', 'oncoming': None, 'right': None, 'left': None}, 'violation': 1, 'light': 'green', 'state': None, 'deadline': 16, 't': 4, 'action': None, 'reward': -4.8897416313713, 'waypoint': 'forward'}
+!! Agent state not been updated!
+Agent idled at a green light with no oncoming traffic. (rewarded -4.89)
+75% of time remaining to reach destination.
+
+/-------------------
+| Step 5 Results
+\-------------------
+
+Environment.step(): t = 5
+Environment.act() [POST]: location: (2, 6), heading: (1, 0), action: None, reward: 2.20618941748
+Environment.act(): Step data: {'inputs': {'light': 'red', 'oncoming': None, 'right': None, 'left': None}, 'violation': 0, 'light': 'red', 'state': None, 'deadline': 15, 't': 5, 'action': None, 'reward': 2.206189417482734, 'waypoint': 'forward'}
+!! Agent state not been updated!
+Agent properly idled at a red light. (rewarded 2.21)
+70% of time remaining to reach destination.
+
+/-------------------
+| Step 6 Results
+\-------------------
+
+Environment.step(): t = 6
+Environment.act() [POST]: location: (2, 6), heading: (1, 0), action: None, reward: 1.47546121131
+Environment.act(): Step data: {'inputs': {'light': 'red', 'oncoming': None, 'right': None, 'left': None}, 'violation': 0, 'light': 'red', 'state': None, 'deadline': 14, 't': 6, 'action': None, 'reward': 1.4754612113144436, 'waypoint': 'forward'}
+!! Agent state not been updated!
+Agent properly idled at a red light. (rewarded 1.48)
+65% of time remaining to reach destination.
+
+/-------------------
+| Step 7 Results
+\-------------------
+
+Environment.step(): t = 7
+Environment.act() [POST]: location: (2, 6), heading: (1, 0), action: None, reward: 1.92831499091
+Environment.act(): Step data: {'inputs': {'light': 'red', 'oncoming': None, 'right': None, 'left': 'right'}, 'violation': 0, 'light': 'red', 'state': None, 'deadline': 13, 't': 7, 'action': None, 'reward': 1.928314990905397, 'waypoint': 'forward'}
+!! Agent state not been updated!
+Agent properly idled at a red light. (rewarded 1.93)
+60% of time remaining to reach destination.
+
+/-------------------
+| Step 8 Results
+\-------------------
+
+Environment.step(): t = 8
+Environment.act() [POST]: location: (2, 6), heading: (1, 0), action: None, reward: 2.22174652763
+Environment.act(): Step data: {'inputs': {'light': 'red', 'oncoming': None, 'right': None, 'left': None}, 'violation': 0, 'light': 'red', 'state': None, 'deadline': 12, 't': 8, 'action': None, 'reward': 2.2217465276331296, 'waypoint': 'forward'}
+!! Agent state not been updated!
+Agent properly idled at a red light. (rewarded 2.22)
+55% of time remaining to reach destination.
+
+/-------------------
+| Step 9 Results
+\-------------------
+
+Environment.step(): t = 9
+Environment.act() [POST]: location: (2, 6), heading: (1, 0), action: None, reward: -4.09890516822
+Environment.act(): Step data: {'inputs': {'light': 'green', 'oncoming': None, 'right': None, 'left': None}, 'violation': 1, 'light': 'green', 'state': None, 'deadline': 11, 't': 9, 'action': None, 'reward': -4.09890516822241, 'waypoint': 'forward'}
+!! Agent state not been updated!
+Agent idled at a green light with no oncoming traffic. (rewarded -4.10)
+50% of time remaining to reach destination.
+
+/-------------------
+| Step 10 Results
+\-------------------
+
+Environment.step(): t = 10
+Environment.act() [POST]: location: (2, 6), heading: (1, 0), action: None, reward: -5.57224552854
+Environment.act(): Step data: {'inputs': {'light': 'green', 'oncoming': None, 'right': None, 'left': None}, 'violation': 1, 'light': 'green', 'state': None, 'deadline': 10, 't': 10, 'action': None, 'reward': -5.57224552854308, 'waypoint': 'forward'}
+!! Agent state not been updated!
+Agent idled at a green light with no oncoming traffic. (rewarded -5.57)
+45% of time remaining to reach destination.
+
+/-------------------
+| Step 11 Results
+\-------------------
+
+Environment.step(): t = 11
+Environment.act() [POST]: location: (2, 6), heading: (1, 0), action: None, reward: -5.38774848427
+Environment.act(): Step data: {'inputs': {'light': 'green', 'oncoming': None, 'right': None, 'left': None}, 'violation': 1, 'light': 'green', 'state': None, 'deadline': 9, 't': 11, 'action': None, 'reward': -5.387748484268616, 'waypoint': 'forward'}
+!! Agent state not been updated!
+Agent idled at a green light with no oncoming traffic. (rewarded -5.39)
+40% of time remaining to reach destination.
+
+/-------------------
+| Step 12 Results
+\-------------------
+
+Environment.step(): t = 12
+Environment.act() [POST]: location: (2, 6), heading: (1, 0), action: None, reward: -5.87688453482
+Environment.act(): Step data: {'inputs': {'light': 'green', 'oncoming': None, 'right': None, 'left': None}, 'violation': 1, 'light': 'green', 'state': None, 'deadline': 8, 't': 12, 'action': None, 'reward': -5.876884534824519, 'waypoint': 'forward'}
+!! Agent state not been updated!
+Agent idled at a green light with no oncoming traffic. (rewarded -5.88)
+35% of time remaining to reach destination.
+
+/-------------------
+| Step 13 Results
+\-------------------
+
+Environment.step(): t = 13
+Environment.act() [POST]: location: (2, 6), heading: (1, 0), action: None, reward: 1.04077690733
+Environment.act(): Step data: {'inputs': {'light': 'red', 'oncoming': None, 'right': None, 'left': None}, 'violation': 0, 'light': 'red', 'state': None, 'deadline': 7, 't': 13, 'action': None, 'reward': 1.0407769073303148, 'waypoint': 'forward'}
+!! Agent state not been updated!
+Agent properly idled at a red light. (rewarded 1.04)
+30% of time remaining to reach destination.
+
+/-------------------
+| Step 14 Results
+\-------------------
+
+Environment.step(): t = 14
+Environment.act() [POST]: location: (2, 6), heading: (1, 0), action: None, reward: 1.6079029593
+Environment.act(): Step data: {'inputs': {'light': 'red', 'oncoming': None, 'right': None, 'left': None}, 'violation': 0, 'light': 'red', 'state': None, 'deadline': 6, 't': 14, 'action': None, 'reward': 1.6079029593030565, 'waypoint': 'forward'}
+!! Agent state not been updated!
+Agent properly idled at a red light. (rewarded 1.61)
+25% of time remaining to reach destination.
+
+/-------------------
+| Step 15 Results
+\-------------------
+
+Environment.step(): t = 15
+Environment.act() [POST]: location: (2, 6), heading: (1, 0), action: None, reward: 1.83370256961
+Environment.act(): Step data: {'inputs': {'light': 'red', 'oncoming': None, 'right': None, 'left': None}, 'violation': 0, 'light': 'red', 'state': None, 'deadline': 5, 't': 15, 'action': None, 'reward': 1.833702569611713, 'waypoint': 'forward'}
+!! Agent state not been updated!
+Agent properly idled at a red light. (rewarded 1.83)
+20% of time remaining to reach destination.
+
+/-------------------
+| Step 16 Results
+\-------------------
+
+Environment.step(): t = 16
+Environment.act() [POST]: location: (2, 6), heading: (1, 0), action: None, reward: 0.450428404375
+Environment.act(): Step data: {'inputs': {'light': 'red', 'oncoming': None, 'right': None, 'left': None}, 'violation': 0, 'light': 'red', 'state': None, 'deadline': 4, 't': 16, 'action': None, 'reward': 0.45042840437501663, 'waypoint': 'forward'}
+!! Agent state not been updated!
+Agent properly idled at a red light. (rewarded 0.45)
+15% of time remaining to reach destination.
+
+/-------------------
+| Step 17 Results
+\-------------------
+
+Environment.step(): t = 17
+Environment.act() [POST]: location: (2, 6), heading: (1, 0), action: None, reward: -5.26348941875
+Environment.act(): Step data: {'inputs': {'light': 'green', 'oncoming': None, 'right': None, 'left': None}, 'violation': 1, 'light': 'green', 'state': None, 'deadline': 3, 't': 17, 'action': None, 'reward': -5.263489418747103, 'waypoint': 'forward'}
+!! Agent state not been updated!
+Agent idled at a green light with no oncoming traffic. (rewarded -5.26)
+10% of time remaining to reach destination.
+
+/-------------------
+| Step 18 Results
+\-------------------
+
+Environment.step(): t = 18
+Environment.act() [POST]: location: (2, 6), heading: (1, 0), action: None, reward: -5.37157645843
+Environment.act(): Step data: {'inputs': {'light': 'green', 'oncoming': None, 'right': None, 'left': None}, 'violation': 1, 'light': 'green', 'state': None, 'deadline': 2, 't': 18, 'action': None, 'reward': -5.371576458427148, 'waypoint': 'forward'}
+!! Agent state not been updated!
+Agent idled at a green light with no oncoming traffic. (rewarded -5.37)
+5% of time remaining to reach destination.
+
+/-------------------
+| Step 19 Results
+\-------------------
+
+Environment.step(): t = 19
+Environment.act() [POST]: location: (2, 6), heading: (1, 0), action: None, reward: -5.59668038634
+Environment.act(): Step data: {'inputs': {'light': 'green', 'oncoming': None, 'right': None, 'left': None}, 'violation': 1, 'light': 'green', 'state': None, 'deadline': 1, 't': 19, 'action': None, 'reward': -5.596680386339672, 'waypoint': 'forward'}
+Environment.step(): Primary agent ran out of time! Trial aborted.
+!! Agent state not been updated!
+Agent idled at a green light with no oncoming traffic. (rewarded -5.60)
+0% of time remaining to reach destination.
+
+Trial Aborted!
+Agent did not reach the destination.
+
+/-------------------------
+| Training trial 2
+\-------------------------
+
+Environment.reset(): Trial set up with start = (1, 5), destination = (3, 2), deadline = 20
+Simulating trial. . . 
+epsilon = 1.0000; alpha = 0.5000
+
+/-------------------
+| Step 0 Results
+\-------------------
+
+Environment.step(): t = 0
+Environment.act() [POST]: location: (1, 5), heading: (0, 1), action: None, reward: 2.24515346433
+Environment.act(): Step data: {'inputs': {'light': 'red', 'oncoming': None, 'right': None, 'left': None}, 'violation': 0, 'light': 'red', 'state': None, 'deadline': 20, 't': 0, 'action': None, 'reward': 2.245153464332965, 'waypoint': 'left'}
+!! Agent state not been updated!
+Agent properly idled at a red light. (rewarded 2.25)
+95% of time remaining to reach destination.
+
+/-------------------
+| Step 1 Results
+\-------------------
+
+Environment.step(): t = 1
+Environment.act() [POST]: location: (1, 5), heading: (0, 1), action: None, reward: 1.54157441554
+Environment.act(): Step data: {'inputs': {'light': 'red', 'oncoming': None, 'right': None, 'left': None}, 'violation': 0, 'light': 'red', 'state': None, 'deadline': 19, 't': 1, 'action': None, 'reward': 1.541574415543566, 'waypoint': 'left'}
+!! Agent state not been updated!
+Agent properly idled at a red light. (rewarded 1.54)
+90% of time remaining to reach destination.
+
+/-------------------
+| Step 2 Results
+\-------------------
+
+Environment.step(): t = 2
+Environment.act() [POST]: location: (1, 5), heading: (0, 1), action: None, reward: 2.43656640084
+Environment.act(): Step data: {'inputs': {'light': 'red', 'oncoming': None, 'right': None, 'left': None}, 'violation': 0, 'light': 'red', 'state': None, 'deadline': 18, 't': 2, 'action': None, 'reward': 2.4365664008382115, 'waypoint': 'left'}
+!! Agent state not been updated!
+Agent properly idled at a red light. (rewarded 2.44)
+85% of time remaining to reach destination.
+
+/-------------------
+| Step 3 Results
+\-------------------
+
+Environment.step(): t = 3
+Environment.act() [POST]: location: (1, 5), heading: (0, 1), action: None, reward: -5.16497118758
+Environment.act(): Step data: {'inputs': {'light': 'green', 'oncoming': None, 'right': None, 'left': None}, 'violation': 1, 'light': 'green', 'state': None, 'deadline': 17, 't': 3, 'action': None, 'reward': -5.164971187575116, 'waypoint': 'left'}
+!! Agent state not been updated!
+Agent idled at a green light with no oncoming traffic. (rewarded -5.16)
+80% of time remaining to reach destination.
+
+/-------------------
+| Step 4 Results
+\-------------------
+
+Environment.step(): t = 4
+Environment.act() [POST]: location: (1, 5), heading: (0, 1), action: None, reward: -5.81222051255
+Environment.act(): Step data: {'inputs': {'light': 'green', 'oncoming': None, 'right': None, 'left': None}, 'violation': 1, 'light': 'green', 'state': None, 'deadline': 16, 't': 4, 'action': None, 'reward': -5.812220512549768, 'waypoint': 'left'}
+!! Agent state not been updated!
+Agent idled at a green light with no oncoming traffic. (rewarded -5.81)
+75% of time remaining to reach destination.
+
+/-------------------
+| Step 5 Results
+\-------------------
+
+Environment.step(): t = 5
+Environment.act() [POST]: location: (1, 5), heading: (0, 1), action: None, reward: 1.28909419042
+Environment.act(): Step data: {'inputs': {'light': 'red', 'oncoming': None, 'right': None, 'left': None}, 'violation': 0, 'light': 'red', 'state': None, 'deadline': 15, 't': 5, 'action': None, 'reward': 1.2890941904194841, 'waypoint': 'left'}
+!! Agent state not been updated!
+Agent properly idled at a red light. (rewarded 1.29)
+70% of time remaining to reach destination.
+
+/-------------------
+| Step 6 Results
+\-------------------
+
+Environment.step(): t = 6
+Environment.act() [POST]: location: (1, 5), heading: (0, 1), action: None, reward: 2.62046074913
+Environment.act(): Step data: {'inputs': {'light': 'red', 'oncoming': None, 'right': None, 'left': None}, 'violation': 0, 'light': 'red', 'state': None, 'deadline': 14, 't': 6, 'action': None, 'reward': 2.620460749131124, 'waypoint': 'left'}
+!! Agent state not been updated!
+Agent properly idled at a red light. (rewarded 2.62)
+65% of time remaining to reach destination.
+
+/-------------------
+| Step 7 Results
+\-------------------
+
+Environment.step(): t = 7
+Environment.act() [POST]: location: (1, 5), heading: (0, 1), action: None, reward: -5.34090919473
+Environment.act(): Step data: {'inputs': {'light': 'green', 'oncoming': None, 'right': None, 'left': None}, 'violation': 1, 'light': 'green', 'state': None, 'deadline': 13, 't': 7, 'action': None, 'reward': -5.340909194734654, 'waypoint': 'left'}
+!! Agent state not been updated!
+Agent idled at a green light with no oncoming traffic. (rewarded -5.34)
+60% of time remaining to reach destination.
+
+/-------------------
+| Step 8 Results
+\-------------------
+
+Environment.step(): t = 8
+Environment.act() [POST]: location: (1, 5), heading: (0, 1), action: None, reward: -4.72639935028
+Environment.act(): Step data: {'inputs': {'light': 'green', 'oncoming': None, 'right': None, 'left': None}, 'violation': 1, 'light': 'green', 'state': None, 'deadline': 12, 't': 8, 'action': None, 'reward': -4.726399350284746, 'waypoint': 'left'}
+!! Agent state not been updated!
+Agent idled at a green light with no oncoming traffic. (rewarded -4.73)
+55% of time remaining to reach destination.
+
+/-------------------
+| Step 9 Results
+\-------------------
+
+Environment.step(): t = 9
+Environment.act() [POST]: location: (1, 5), heading: (0, 1), action: None, reward: 1.27353328433
+Environment.act(): Step data: {'inputs': {'light': 'red', 'oncoming': None, 'right': None, 'left': None}, 'violation': 0, 'light': 'red', 'state': None, 'deadline': 11, 't': 9, 'action': None, 'reward': 1.2735332843275586, 'waypoint': 'left'}
+!! Agent state not been updated!
+Agent properly idled at a red light. (rewarded 1.27)
+50% of time remaining to reach destination.
+
+/-------------------
+| Step 10 Results
+\-------------------
+
+Environment.step(): t = 10
+Environment.act() [POST]: location: (1, 5), heading: (0, 1), action: None, reward: 1.72005193693
+Environment.act(): Step data: {'inputs': {'light': 'red', 'oncoming': None, 'right': None, 'left': None}, 'violation': 0, 'light': 'red', 'state': None, 'deadline': 10, 't': 10, 'action': None, 'reward': 1.7200519369256577, 'waypoint': 'left'}
+!! Agent state not been updated!
+Agent properly idled at a red light. (rewarded 1.72)
+45% of time remaining to reach destination.
+
+Simulation ended. . . 

@@ -105,15 +105,24 @@ class LearningAgent(Agent):
         all_actions_inCurrentState=self.Q[state]
         maxq_action= None
         maxq= 0.0
+        lstOfTiedMaxActions=[]
         for acts , qval in all_actions_inCurrentState.iteritems() :
-            if qval >=maxq :
+            if qval >maxq :
                 maxq= qval
                 maxq_action=acts
             else: 
-                pass
+                 pass
 
-        #return maxq_action
-        return (maxq , maxq_action)
+        # once we have found maxQ , we need to find tie up actions having same max Q
+        for acts , qval in all_actions_inCurrentState.iteritems() :
+            if qval  == maxq :
+               
+                lstOfTiedMaxActions=lstOfTiedMaxActions+[(acts,qval)]
+            else: 
+                 pass 
+
+        #return maxq_action from list of maxQ actions randomly
+        return random.choice(lstOfTiedMaxActions)[0]
 
 
     def createQ(self, state):
@@ -169,6 +178,7 @@ class LearningAgent(Agent):
         # for not learning 
         if(self.learning!= True):
             action = self.getRandomAction()
+            return action
         else:
             # for  learning
             # uniform gives you a floating-point value
@@ -269,8 +279,8 @@ def run():
     # Flags:
     #   tolerance  - epsilon tolerance before beginning testing, default is 0.05 
     #   n_test     - discrete number of testing trials to perform, default is 0
-    sim.run(tolerance=0.005, n_test=10)
-
+    sim.run(tolerance=0.005, n_test=0)
+    #sim.run()
 
 if __name__ == '__main__':
     for i in range(1):
